@@ -43,7 +43,7 @@ footer{
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    
+    background-image: linear-gradient(to bottom, #d9f3eb,rgb(111, 192, 108), #d9f3eb);
 }
 
 .div__logomaywa{
@@ -57,6 +57,12 @@ footer{
     margin-left: 2rem;
 }
 
+/*
+bounce flash pulse rubberBand shakeX shakeY headShake swing tada wobble jello heartBeat
+*/
+
+
+
 .inicio{
     height: 5rem;
     text-align: center;
@@ -67,6 +73,7 @@ footer{
     order: +1;
     margin-right: 2rem;
     width: 20%;
+    z-index: 1;
 }
 
 .h1__inicio{
@@ -92,7 +99,10 @@ footer{
     bottom: 0px;
     flex-direction: row;
     align-items: center;
+    background-image: 
+    linear-gradient(to bottom, #d9f3eb,rgb(111, 192, 108), #d9f3eb);
 }
+
 
 .div__navmenu{
     display: flex;

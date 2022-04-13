@@ -8,17 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/animate.css">
     <title>Proyecto</title>
 </head>
 <body> <!--rama1 -->
     <header> 
         <div class="contenedorHeader">
-            <img class="logoMaywa" src="./multimedia/logoMaywa.png" alt="Logo Maywa">
-            <div class="inicio">
+                <img class="logoMaywa wow bounceInLeft" data-wow-duration="1s" 
+                src="./multimedia/logoMaywa.png" alt="Logo Maywa">
+            
+            <div class="inicio wow bounceInLeft" data-wow-duration="4s">
                 <h1 class="h1__inicio">MAYWA</h1>
                 <h4 class="h3__inicio">Comida Saludable</h4>
             </div>
-            <div class="div__menu">
+            <div class="div__menu wow bounceInLeft" data-wow-duration="2s">
                 <label id="label__menu" for="menu"> ☰ </label>
                 <input type="checkbox" id="menu" value="">
                 <div class="div__navmenu">
@@ -34,7 +37,7 @@
     <main class="contenido">
 
         <!-- Imagen de inicio -->
-        <div id="img1" class="div_imgtienda">
+        <div id="img1" class="div_imgtienda wow animate__lightSpeedInRight">
             <img src="./multimedia/imginicio2.png"   alt="Tienda saludable">
         </div>
 
@@ -101,5 +104,9 @@
             <p>asdasdasdasdasdasdasdasda</p>
         </div>
     </footer>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
