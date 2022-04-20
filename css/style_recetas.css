@@ -12,7 +12,7 @@ body{
         "main"
         "footer";
         grid-template-columns: 100%;
-        grid-template-rows: 4rem 96rem 4rem;
+        grid-template-rows: 6rem 96rem 6rem;
 }
 
 header{

@@ -12,7 +12,7 @@ body{
         "main"
         "footer";
         grid-template-columns: 100%;
-        grid-template-rows: 4rem 60rem 4rem;
+        grid-template-rows: 6rem 60rem 6rem;
 }
 
 header{
@@ -24,6 +24,20 @@ main{
 footer{
     grid-area: footer;
 }
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
 
 /************************************/
 /************ EMPIEZA ***************/
@@ -60,6 +74,12 @@ footer{
 /*
 bounce flash pulse rubberBand shakeX shakeY headShake swing tada wobble jello heartBeat
 */
+
+
+.ul__derecha{
+    float: right;
+}
+
 
 
 
