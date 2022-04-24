@@ -1,18 +1,30 @@
-header ul {
-  float: right; }
-  header ul li {
+.div_parrafoProducto {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #d281da; }
+  .div_parrafoProducto:hover {
+    border: solid 2px #d1cdcd; }
+  .div_parrafoProducto p {
     margin: 1rem; }
+  .div_parrafoProducto p.h1:hover {
+    transition: all 0.3s linear;
+    color: #413d3d;
+    text-shadow: 0 0 10px white, 0 0 10px, 0 0 20px; }
 
-header .h1__inicio {
-  margin-top: 0px;
-  height: 2rem;
-  font-family: 'Rammetto One', cursive; }
+.div_parrafoProducto2 {
+  background-color: #f6f873; }
 
-header .h3__inicio {
-  margin-top: 0.5rem;
-  height: 2rem;
-  font-family: 'Lobster', cursive;
-  font-size: 15px; }
+header a img {
+  width: 60px;
+  height: 40px; }
+
+header .h6 {
+  text-align: center; }
 
 main img {
   opacity: 90%; }

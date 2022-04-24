@@ -1,23 +1,16 @@
+@import 'productos';
 
 header{
-    ul{
-        float: right;
-        li{
-            margin: 1rem;
-        }
+
+    a img{
+        width: 60px;
+        height: 40px;
     }
-    .h1__inicio{
-        margin-top: 0px;
-        height: 2rem;
-        font-family: 'Rammetto One', cursive;
     
+    .h6{
+        text-align: center;
     }
-    .h3__inicio{
-        margin-top: 0.5rem;
-        height: 2rem;
-        font-family: 'Lobster', cursive;
-        font-size: 15px;
-    }
+
 }
 
 main{
@@ -123,3 +116,4 @@ footer{
     }
     
 }
+

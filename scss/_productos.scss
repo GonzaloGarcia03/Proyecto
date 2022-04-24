@@ -1,0 +1,30 @@
+.div_parrafoProducto{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #d281da;
+
+    &:hover{
+        border: solid 2px rgb(209, 205, 205);
+    }
+
+    p{
+        margin:1rem;
+    }
+    
+    p.h1:hover{
+        transition: all 0.3s linear;
+       color: rgb(65, 61, 61);
+       text-shadow: 0 0 10px white,
+       0 0 10px,
+       0 0 20px;
+    }
+}
+
+.div_parrafoProducto2{
+    background-color: #f6f873;
+}
