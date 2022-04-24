@@ -7,24 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
     <link href="../css/footers.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
     <title>Proyecto</title>
 </head>
-<body> <!--rama1 -->
-  <header class="container"> 
+<body>
+    <header class="container"> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container-fluid justify-content-between">
                 <a class="navbar-brand wow bounceInLeft" href="./index.html"><img class="wow b
                     ounceInLeft" src="../multimedia/logoMaywa.png" alt="" width="60" height="40"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse" id="navbarSupportedConten t">
+                    <ul class="navbar-nav me-auto ms-4 mb-2 mb-lg-0">
                         <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
                         </li>
@@ -40,55 +41,62 @@
                         <li class="nav-item">
                                 <a class="nav-link" href="./html/galeria.html">GALERIA</a>
                         </li>
-                        <li class="nav-item">
-                            <div class="wow bounceInLeft" data-wow-duration="4s">
-                                <h1 class="h1__inicio">MAYWA</h1>
-                                <h4 class="h3__inicio">Comida Saludable</h4>
-                            </div>
-                        </li>
                     </ul>
+                    <div class="wow bounceInLeft" data-wow-duration="4s">
+                        <h1 class="h1__inicio">MAYWA</h1>
+                        <h4 class="h3__inicio">Comida Saludable</h4>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="contenido">
+    <main class="container-fluid">
 
         <!-- Imagen de inicio -->
-        <div id="img1" class="div_imgtienda wow animate__lightSpeedInRight">
-            <img src="./multimedia/imginicio2.png"   alt="Tienda saludable">
+        <div class="row">
+            <img src="./multimedia/imginicio2.png" class="img_inicio col-md-12 col-lg-12 img-thumbnail mx-auto wow pulse" alt="Tienda saludable">
         </div>
 
         <!-- Contenido 1 -->
-        <div id="c1" class="contenido__size contenido__1 contenido__border">
-            <div class="c1__p">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum.</p>
+
+        <div class="row justify-content-center align-items-center mx-2 my-2 border border-1">
+            <div class="contenido1__p col-md-6 col-sm-12 col-xs-12 rounded-3 shadow mx-4 my-4">
+                <p class="h1">Lorem, ipsum.</p>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum.</p>
+                <button type="button" class="btn btn-info">¡Click aquí para saber más!</button>
             </div>
-            <div class="c1__img">
+
+            <div class="img-fluid col-md-auto col-sm-auto col-xs-auto mx-4 my-2">
                 <img src="./multimedia/c_1_2.jpg" alt="Comer sano">
             </div>
+            
         </div>
 
         <!-- Contenido 2 -->
-        <div id="c2" class="contenido__size contenido__1 contenido__2 contenido__border">
-            <div class="c1__img">
+
+        <div class="row justify-content-center align-items-center mx-2 my-2 border border-1">
+            <div class="img-fluid col-md-auto col-sm-auto col-xs-auto mx-4 my-2">
                 <img src="./multimedia/c_2_1.jpg" alt="Comer sano">
             </div>
-            <div class="c1__p c2__p">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum.</p>
+            <div class="contenido1__p contenido2_p rounded-3 shadow col-md-6 col-sm-6 col-xs-12 mx-4 my-4">
+                <div class="col-md-auto col-sm-auto col-xs-auto mx-4 my-4">
+                    <p class="h1">Lorem, ipsum.</p>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum.</p>
+                </div>
             </div>
         </div>
 
         <!-- Contenido 3 -->
-        <div id="c3" class="contenido__size contenido__1">
-            <div class="c1__p">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum.</p>
+        <div class="row justify-content-center align-items-center mx-2 my-2 border border-1">
+            <div class="contenido1__p rounded-3 shadow col-md-6 col-sm-12 col-xs-12 mx-4 my-4">
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum.</p>
+                <button type="button" class="btn btn-info">¡Click aquí para saber más!</button>
             </div>
-            <div class="c1__img">
+            <div class="img-fluid col-md-auto col-sm-auto col-xs-auto mx-4 my-2">
                 <img src="./multimedia/c_3_2.jpg" alt="Comer sano">
             </div>
         </div>
     </main>
-
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="div_icon">
@@ -114,40 +122,6 @@
         </ul>
     </footer>
 
-<!-- 
-    <footer class="contenido__size footer">
-  
-        <div class="footer__1">
-  
-            <div class="div__logomaywa">
-                <img class="logoMaywa_footer" src="./multimedia/logoMaywa.png" alt="Logo Maywa">
-            </div>
-  
-            <div class="div__nav_footer">
-                <nav>
-                    <ul>
-                        <li><a href="./html/index.html">INICIO</a></li>
-                        <li><a href="./html/productos.html">PRODUCTOS</a></li>
-                        <li><a href="./html/recetas.html">RECETAS</a></li>
-                        <li><a href="./html/nosotros.html">NOSOTROS</a></li>
-                        <li><a href="./html/galeria.html">GALERIA</a></li>
-                    </ul>
-                </nav>
-            </div>
-  
-            <div class="div_icon">
-                <nav>
-                    <a href="http://www.twitter.com" target="_blank"><img class="icon" src="./multimedia/tw.png" alt="twitter"></a>
-                    <a href="http://www.instagram.com" target="_blank"><img class="icon" src="./multimedia/insta.png" alt="Instagram"></a>
-                    <a href="http://www.fb.com" target="_blank"><img class="icon" src="./multimedia/fb.png" alt="Facebook"></a>
-                </nav>
-            </div>
-        </div>
-        <div class="footer__2">
-            <p>asdasdasdasdasdasdasdasda</p>
-        </div>
-    </footer>
--->  
     <script src="./js/wow.min.js"></script>
     <script>
         new WOW().init();

@@ -1,0 +1,87 @@
+header ul {
+  float: right; }
+  header ul li {
+    margin: 1rem; }
+
+header .h1__inicio {
+  margin-top: 0px;
+  height: 2rem;
+  font-family: 'Rammetto One', cursive; }
+
+header .h3__inicio {
+  margin-top: 0.5rem;
+  height: 2rem;
+  font-family: 'Lobster', cursive;
+  font-size: 15px; }
+
+main img {
+  opacity: 90%; }
+  main img:hover {
+    opacity: 100%; }
+
+main .img_inicio {
+  width: 50rem;
+  height: 20rem;
+  margin-top: 1rem;
+  animation-delay: 4s;
+  opacity: 100%; }
+
+main .contenido1__p {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  background-color: #C1F4C5;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center; }
+  main .contenido1__p:hover {
+    border: solid 2px #d1cdcd; }
+  main .contenido1__p p {
+    margin: 1rem; }
+  main .contenido1__p p.h1:hover {
+    transition: all 0.3s linear;
+    color: #413d3d;
+    text-shadow: 0 0 10px white, 0 0 10px, 0 0 20px; }
+  main .contenido1__p button {
+    background-color: #5d9162;
+    color: white; }
+
+main .contenido2_p {
+  background-color: #3a8f43; }
+  main .contenido2_p p.h1 {
+    color: white;
+    text-emphasis: bold; }
+  main .contenido2_p p.lead {
+    color: white; }
+
+footer .div__logomaywa {
+  height: auto;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-block; }
+
+footer .logoMaywa {
+  height: 3rem;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 2rem; }
+
+footer .logoMaywa_footer {
+  height: 3rem;
+  margin: none; }
+
+footer .div_icon {
+  margin: 0%;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+footer .icon {
+  height: 20px;
+  margin-left: 10px; }
