@@ -4,112 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style_recetas.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+    <link href="../css/footers.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/animate.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Proyecto</title>
 </head>
 <body>
     <header class="container"> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="wow bounceInLeft" src="../multimedia/logoMaywa.png" alt="" width="60" height="40"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand wow bounceInLeft mx-3" href="./index.html"><img src="../multimedia/logoMaywa.png" alt="Logo Maywa" ></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                         </li>
-                        <li class="nav-item">
-                                <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="./productos.html">PRODUCTOS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                                 <a class="nav-link" href="./recetas.html">RECETAS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                                 <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                                 <a class="nav-link" href="./galeria.html">GALERIA</a>
                         </li>
-                        <li class="nav-item">
-                            <div class="wow bounceInLeft" data-wow-duration="4s">
-                                <h1 class="h1__inicio">MAYWA</h1>
-                                <h4 class="h3__inicio">Comida Saludable</h4>
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+          </nav>
     </header>
-    <main class="contenidoRecetas">
+    <main class="container-fluid">
         <!--Imagen de inicio-->
-        <div id="imgR" class="div_imgRecetas">
-            <img src="../multimedia/imginicioR.jpg" alt="Recetas saludables">
+
+        <div class="row">
+            <img src="../multimedia/imginicioR.jpg" class="img_inicio col-md-12 col-lg-12 img-thumbnail mx-auto wow pulse" alt="Productos">
         </div>
+
+
+
         <!--Contenido de la primer receta-->
-        <div id="r1" class="contenido__size  contenido__border contenido__R contenido__R_1_bgnd">
-            <h2>Receta 1</h2>
-            <p class="r_intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iusto autem voluptatibus dolor labore exercitationem, nulla deleniti aut rerum nobis necessitatibus fugiat consequatur distinctio eaque eius explicabo enim maxime tenetur?</p>
 
-                <!--Ingredientes e imagen-->
-            <div class="r_IngImg">
-                <div class="r_Ingredientes">
-                    <h3 class="r_subtIng">Ingredientes:</h3>
-                    <ul>
-                        <li>ingrediente 1</li>
-                        <li>ingrediente 2</li>
-                        <li>ingrediente 3</li>
-                        <li>ingrediente 4</li>
-                        <li>ingrediente 5</li>
-                    </ul>
+
+        <div class="row justify-content-center align-items-center mx-2 my-2 border border-1">
+            <div class="container col-md-10 col-lg-10 contenido__R_1_bgnd recetaContenido my-4">
+                <h2 class="h1 text-center">Receta 1</h2>
+                
+                <p class="lead text-wrap text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iusto autem voluptatibus dolor labore exercitationem, nulla deleniti aut rerum nobis necessitatibus fugiat consequatur distinctio eaque eius explicabo enim maxime tenetur?</p>
+
+                    <!--Ingredientes e imagen-->
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-sm-12 col-xs-auto col-md-4 col-lg-4 mx-auto">
+                            <div class="list-group">
+                                <span href="#" class="list-group-item list-group-item-inf h3 text-center" aria-current="true">Ingredientes:</span>
+                                <span class="list-group-item ">Ingrediente 1</span>
+                                <span class="list-group-item ">Ingrediente 2</span>
+                                <span class="list-group-item ">Ingrediente 3</span>
+                                <span class="list-group-item ">Ingrediente 4</span>
+                                <span class="list-group-item ">Ingrediente 5</span>
+                                <span class="list-group-item ">Ingrediente 6</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-auto col-md-6 col-lg-6">
+                            <img class="imgReceta mx-auto d-block" src="../multimedia/r_2.jpg" alt="Receta 1">
+                        </div>
+                    </div>
                 </div>
-                <img src="../multimedia/r_1.jpg" alt="Receta 1">
-            </div>
-            <!--Preparacion-->
-            <div class="div_preparacion">
-                <h3 class="r_prepTit">Preparación:</h3>
-                <p class="r_prep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora cum totam temporibus eligendi laboriosam eum. Sint praesentium natus itaque, dicta, officiis ad, quaerat ratione veritatis quos quidem temporibus omnis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae aliquid placeat reprehenderit quae, mollitia veritatis optio praesentium cum sequi tempora ea nesciunt possimus error nam laudantium sint voluptas! Aliquam, ratione. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, labore? Distinctio, eveniet ipsam explicabo iste accusantium, vel harum doloremque amet itaque corporis optio qui quisquam quibusdam blanditiis ea odit provident?</p>
+                <!--Preparacion-->
+                <h3 class="h2">Preparación:</h3>
+                <p class="lead text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora cum totam temporibus eligendi laboriosam eum. Sint praesentium natus itaque, dicta, officiis ad, quaerat ratione veritatis quos quidem temporibus omnis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae aliquid placeat reprehenderit quae, mollitia veritatis optio praesentium cum sequi tempora ea nesciunt possimus error nam laudantium sint voluptas! Aliquam, ratione. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, labore? Distinctio, eveniet ipsam explicabo iste accusantium, vel harum doloremque amet itaque corporis optio qui quisquam quibusdam blanditiis ea odit provident?</p>
             </div>
         </div>
 
-        <hr class="hr">
+        <div class="row justify-content-center align-items-center mx-2 my-2 border border-1">
+            <div class="container col-md-10 col-lg-10 contenido__R_2_bgnd recetaContenido my-4">
+                <h2 class="h1 text-center">Receta 2</h2>
+                
+                <p class="lead text-wrap text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iusto autem voluptatibus dolor labore exercitationem, nulla deleniti aut rerum nobis necessitatibus fugiat consequatur distinctio eaque eius explicabo enim maxime tenetur?</p>
 
-        <div id="r2" class="contenido__size  contenido__border contenido__R contenido__R_2_bgnd">
-        
-            <h2>Receta 2</h2>
-            <div class="div_receta">
-                <p class="r_intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quisquam in sapiente natus dicta, blanditiis aspernatur nobis perspiciatis eos corporis illo maiores iure, quaerat, temporibus dolores? Vel dolorem numquam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iusto autem voluptatibus dolor labore exercitationem, nulla deleniti aut rerum nobis necessitatibus fugiat consequatur distinctio eaque eius explicabo enim maxime tenetur?</p>
-            </div>
-            <div class="r_IngImg">
-                <div class="r_Ingredientes">
-                    <h3 class="r_subtIng">Ingredientes</h3>
-                    <ul>
-                        <li>ingrediente 1</li>
-                        <li>ingrediente 2</li>
-                        <li>ingrediente 3</li>
-                        <li>ingrediente 4</li>
-                        <li>ingrediente 5</li>
-                    </ul>
+                    <!--Ingredientes e imagen-->
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-sm-12 col-xs-auto col-md-4 col-lg-4 mx-auto">
+                            <div class="list-group">
+                                <span href="#" class="list-group-item list-group-item-inf h3 text-center" aria-current="true">Ingredientes:</span>
+                                <span class="list-group-item ">Ingrediente 1</span>
+                                <span class="list-group-item ">Ingrediente 2</span>
+                                <span class="list-group-item ">Ingrediente 3</span>
+                                <span class="list-group-item ">Ingrediente 4</span>
+                                <span class="list-group-item ">Ingrediente 5</span>
+                                <span class="list-group-item ">Ingrediente 6</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-auto col-md-6 col-lg-6">
+                            <img class="imgReceta mx-auto d-block" src="../multimedia/r_1.jpg" alt="Receta 1">
+                        </div>
+                    </div>
                 </div>
-                <img src="../multimedia/r_2.jpg" alt="Receta 1">
-            </div>
-            <div class="div_preparacion">
-                <h3 class="r_prepTit">Preparación</h3>
-                <p class="r_prep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora cum totam temporibus eligendi laboriosam eum. Sint praesentium natus itaque, dicta, officiis ad, quaerat ratione veritatis quos quidem temporibus omnis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae aliquid placeat reprehenderit quae, mollitia veritatis optio praesentium cum sequi tempora ea nesciunt possimus error nam laudantium sint voluptas! Aliquam, ratione. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, labore? Distinctio, eveniet ipsam explicabo iste accusantium, vel harum doloremque amet itaque corporis optio qui quisquam quibusdam blanditiis ea odit provident?</p>
+                <!--Preparacion-->
+                <h3 class="h2">Preparación:</h3>
+                <p class="lead text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora cum totam temporibus eligendi laboriosam eum. Sint praesentium natus itaque, dicta, officiis ad, quaerat ratione veritatis quos quidem temporibus omnis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae aliquid placeat reprehenderit quae, mollitia veritatis optio praesentium cum sequi tempora ea nesciunt possimus error nam laudantium sint voluptas! Aliquam, ratione. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, labore? Distinctio, eveniet ipsam explicabo iste accusantium, vel harum doloremque amet itaque corporis optio qui quisquam quibusdam blanditiis ea odit provident?</p>
             </div>
         </div>
-
     </main>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="div_icon">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-gradient-light">
+        <div class="div_icon col-md-2">
             <nav>
                 <a href="http://www.twitter.com" target="_blank"><img class="icon" src="../multimedia/tw.png" alt="twitter"></a>
                 <a href="http://www.instagram.com" target="_blank"><img class="icon" src="../multimedia/insta.png" alt="Instagram"></a>
@@ -117,19 +130,19 @@
             </nav>
         </div>
     
-        <a href="/" class="col-md-6 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto ml-md-2 link-dark text-decoration-none">
+        <ul class="nav col-md-9 justify-content-center">
+          <li class="nav-item mx-3"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item mx-3"><a href="./productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+          <li class="nav-item mx-3"><a href="./recetas.html" class="nav-link px-2 text-muted">Recetas</a></li>
+          <li class="nav-item mx-3"><a href="./nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+          <li class="nav-item mx-3"><a href="./galeria.html" class="nav-link px-2 text-muted">Galería</a></li>
+        </ul>
+
+        <a href="/" class="col-md-1 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto ml-md-2 link-dark text-decoration-none">
             <div class="div__logomaywa">
                 <img class="logoMaywa_footer" src="../multimedia/logoMaywa.png" alt="Logo Maywa">
             </div>
         </a>
-    
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-          <li class="nav-item"><a href="./productos.html" class="nav-link px-2 text-muted">Productos</a></li>
-          <li class="nav-item"><a href="./recetas.html" class="nav-link px-2 text-muted">Recetas</a></li>
-          <li class="nav-item"><a href="./nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
-          <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-muted">Galería</a></li>
-        </ul>
     </footer>
     <script src="../js/wow.min.js"></script>
     <script>

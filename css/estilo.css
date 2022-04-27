@@ -19,6 +19,22 @@
 .div_parrafoProducto2 {
   background-color: #f6f873; }
 
+.imgReceta {
+  width: 20rem;
+  height: 20rem; }
+
+.contenido__R_1_bgnd {
+  background-color: #F2E8C6;
+  padding: 10px;
+  border: solid 2px white; }
+
+.contenido__R_2_bgnd {
+  background-color: #F4806D;
+  border: solid 2px white; }
+
+.recetaContenido:hover {
+  border: solid 2px #d1cdcd; }
+
 header a img {
   width: 60px;
   height: 40px; }
@@ -97,3 +113,7 @@ footer .div_icon {
 footer .icon {
   height: 20px;
   margin-left: 10px; }
+
+.imgN {
+  height: 15rem;
+  width: 15rem; }

@@ -1,0 +1,22 @@
+.imgReceta{
+    width: 20rem;
+    height: 20rem;
+}
+
+
+.contenido__R_1_bgnd{
+    background-color: #F2E8C6;
+    padding: 10px;
+    border: solid 2px white;
+}
+
+.contenido__R_2_bgnd{
+    background-color: #F4806D;   border: solid 2px white;
+}
+
+.recetaContenido{
+
+    &:hover{
+        border: solid 2px rgb(209, 205, 205);
+    }
+}
