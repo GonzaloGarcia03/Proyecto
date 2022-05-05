@@ -1,0 +1,11 @@
+
+
+SASS||:
+Uso de extend inicio.scss, línea 96, para extender la clase logoMaywa_footer
+Declaración de mixin inicio.scss, línea 1, nombre alto_ancho, parámetros $ancho y $alto
+Uso del mixin alto_ancho inicio.scss, líneas 9, 27 y 83
+
+SEO:
+index.html
+Uso de meta description y keywords, líneas 6 y 7
+Título descriptivo, línea 20

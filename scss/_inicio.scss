@@ -1,14 +1,17 @@
+@mixin alto_ancho($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
 header{
 
     a img{
-        width: 60px;
-        height: 40px;
+        @include alto_ancho(40px,60px);
     }
     
     .h6{
         text-align: center;
     }
-
 }
 
 main{
@@ -21,10 +24,9 @@ main{
     }
 
     .img_inicio{
-        width: 50rem;
-        height: 20rem;
+        @include alto_ancho(20rem,50rem);
         margin-top: 1rem;
-        animation-delay: 4s;
+        animation-delay: 1s;
         opacity: 100%;
     }
 
@@ -78,25 +80,24 @@ main{
 footer{
 
     .div__logomaywa{
-        height: auto;
-        width: 15%;
+        @include alto_ancho(auto,15%);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         display: inline-block;
     }
-    
-    .logoMaywa{
-        height: 3rem;
-        display: inline-block;
-        margin: 10px;
-        margin-left: 2rem;
-    }
 
     .logoMaywa_footer{
         height: 3rem;
         margin: none;
+    }
+
+    .logoMaywa{
+        @extend .logoMaywa_footer;
+        display: inline-block;
+        margin: 10px;
+        margin-left: 2rem;
     }
 
     .div_icon{

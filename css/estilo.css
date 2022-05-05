@@ -36,8 +36,8 @@
   border: solid 2px #d1cdcd; }
 
 header a img {
-  width: 60px;
-  height: 40px; }
+  height: 40px;
+  width: 60px; }
 
 header .h6 {
   text-align: center; }
@@ -48,10 +48,10 @@ main img {
     opacity: 100%; }
 
 main .img_inicio {
-  width: 50rem;
   height: 20rem;
+  width: 50rem;
   margin-top: 1rem;
-  animation-delay: 4s;
+  animation-delay: 1s;
   opacity: 100%; }
 
 main .contenido1__p {
@@ -92,15 +92,14 @@ footer .div__logomaywa {
   align-items: center;
   display: inline-block; }
 
-footer .logoMaywa {
+footer .logoMaywa_footer, footer .logoMaywa {
   height: 3rem;
+  margin: none; }
+
+footer .logoMaywa {
   display: inline-block;
   margin: 10px;
   margin-left: 2rem; }
-
-footer .logoMaywa_footer {
-  height: 3rem;
-  margin: none; }
 
 footer .div_icon {
   margin: 0%;
